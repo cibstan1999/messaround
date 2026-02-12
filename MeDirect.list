@@ -1,0 +1,19 @@
+# --- 自用直连规则集 ---
+# 更新时间 02-12-2026
+# 匹配完整域名
+# DOMAIN,api.example.com
+# 匹配关键字
+# DOMAIN-KEYWORD,jd
+# 匹配局域网或特定 IP
+# IP-CIDR,192.168.0.0/16,no-resolve
+# IP-CIDR6,2400:da00::/32,no-resolve
+
+# 匹配后缀
+DOMAIN-SUFFIX,mijia.tech,DIRECT,extended-matching
+DOMAIN-SUFFIX,guwendao.net,DIRECT,extended-matching
+DOMAIN-SUFFIX,cmbimg.com,DIRECT,extended-matching
+DOMAIN-SUFFIX,aitestgo.com,DIRECT
+DOMAIN-SUFFIX,fanfou.com,DIRECT,extended-matching
+DOMAIN-SUFFIX,marriott.com,DIRECT,extended-matching
+DOMAIN-SUFFIX,jk.railshj.com,DIRECT,extended-matching
+DOMAIN-SUFFIX,www.xingjiaolw.com,DIRECT,extended-matching
