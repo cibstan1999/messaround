@@ -9,11 +9,11 @@
 # IP-CIDR6,2400:da00::/32,no-resolve
 
 # 匹配后缀
-DOMAIN-SUFFIX,mijia.tech,DIRECT,extended-matching
-DOMAIN-SUFFIX,guwendao.net,DIRECT,extended-matching
-DOMAIN-SUFFIX,cmbimg.com,DIRECT,extended-matching
-DOMAIN-SUFFIX,aitestgo.com,DIRECT
-DOMAIN-SUFFIX,fanfou.com,DIRECT,extended-matching
-DOMAIN-SUFFIX,marriott.com,DIRECT,extended-matching
-DOMAIN-SUFFIX,jk.railshj.com,DIRECT,extended-matching
-DOMAIN-SUFFIX,www.xingjiaolw.com,DIRECT,extended-matching
+DOMAIN-SUFFIX,mijia.tech
+DOMAIN-SUFFIX,guwendao.net
+DOMAIN-SUFFIX,cmbimg.com
+DOMAIN-SUFFIX,aitestgo.com
+DOMAIN-SUFFIX,fanfou.com
+DOMAIN-SUFFIX,marriott.com
+DOMAIN-SUFFIX,jk.railshj.com
+DOMAIN-SUFFIX,www.xingjiaolw.com
