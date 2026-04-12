@@ -1,5 +1,5 @@
 # --- 自用直连规则集 ---
-# 更新时间 02-12-2026
+# 更新时间 04-12-2026
 # 匹配完整域名
 # DOMAIN,api.example.com
 # 匹配关键字
@@ -24,3 +24,4 @@ DOMAIN-SUFFIX,natureselect.tech
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,duolingo.com
+DOMAIN-SUFFIX.hilton.com
