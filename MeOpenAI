@@ -1,0 +1,12 @@
+# ChatGPT / OpenAI Full Rule Set
+
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+DOMAIN,auth.openai.com
+DOMAIN-SUFFIX,cdn.openai.com
+
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,client.openai.com
