@@ -10,3 +10,18 @@ DOMAIN-SUFFIX,cdn.openai.com
 
 DOMAIN-SUFFIX,workers.dev
 DOMAIN-SUFFIX,client.openai.com
+
+# Gemini
+# Gemini Web
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+
+# Gemini API & Backend
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,alkalicontent-pa.googleapis.com
+DOMAIN-SUFFIX,content-adviser.googleapis.com
+
+# Google AI Studio (开发者环境)
+DOMAIN-SUFFIX,aistudio.google.com
+
