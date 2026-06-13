@@ -1,0 +1,196 @@
+# MeGoogleDoH.list
+# 用途：这些国外/AI/开发者/社交服务强制使用 Google DoH 解析
+# Surge Host 写法：
+# RULE-SET:https://raw.githubusercontent.com/你的用户名/你的仓库/main/MeGoogleDoH.list = server:https://dns.google/dns-query
+
+
+# ===== OpenAI / ChatGPT =====
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,chat.openai.com
+
+
+# ===== Anthropic / Claude =====
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+
+
+# ===== Google / Gemini / YouTube =====
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,youtubei.googleapis.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,withgoogle.com
+DOMAIN-SUFFIX,google.dev
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,ai.google
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,googleblog.com
+
+
+# ===== GitHub / Developer =====
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,github.dev
+DOMAIN-SUFFIX,raw.githubusercontent.com
+DOMAIN-SUFFIX,objects.githubusercontent.com
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,npmjs.com.cn
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,unpkg.com
+DOMAIN-SUFFIX,vercel.app
+DOMAIN-SUFFIX,vercel.com
+DOMAIN-SUFFIX,netlify.app
+DOMAIN-SUFFIX,netlify.com
+DOMAIN-SUFFIX,stackblitz.com
+DOMAIN-SUFFIX,codesandbox.io
+
+
+# ===== Telegram =====
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+
+
+# ===== X / Twitter =====
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,ads-twitter.com
+
+
+# ===== Reddit =====
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
+
+
+# ===== Discord =====
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discordcdn.com
+DOMAIN-SUFFIX,discord.media
+
+
+# ===== Meta / Instagram / Threads / WhatsApp =====
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,threads.net
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+
+
+# ===== TikTok =====
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,muscdn.com
+
+
+# ===== Cloudflare / CDN / 常用海外基础设施 =====
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,pages.dev
+DOMAIN-SUFFIX,fastly.net
+DOMAIN-SUFFIX,akamaized.net
+
+
+# ===== Microsoft / Copilot / Azure / LinkedIn =====
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bingapis.com
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,licdn.com
+
+
+# ===== Apple 海外服务，谨慎加入：只放 AI / 开发者相关，不粗暴接管全部 Apple =====
+DOMAIN-SUFFIX,developer.apple.com
+DOMAIN-SUFFIX,testflight.apple.com
+
+
+# ===== Hugging Face / AI 开发 =====
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,huggingfacehub.com
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,quora.com
+DOMAIN-SUFFIX,character.ai
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,stabilityai.com
+
+
+# ===== 常用海外内容 / 工具 =====
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,substack.com
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notion.site
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,dropboxusercontent.com
+DOMAIN-SUFFIX,figma.com
+DOMAIN-SUFFIX,canva.com
+
+
+# ===== Streaming / 媒体，可按需删减 =====
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,twitchcdn.net
+
+
+# ===== Speedtest / 网络测试 =====
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,ipify.org
+DOMAIN-SUFFIX,ifconfig.me
+DOMAIN-SUFFIX,icanhazip.com
